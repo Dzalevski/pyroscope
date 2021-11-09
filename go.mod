@@ -8,6 +8,7 @@ go 1.16
 
 require (
 	github.com/StackExchange/wmi v0.0.0-20210224194228-fe8f1750fd46 // indirect
+	github.com/alecthomas/units v0.0.0-20190924025748-f65c72e2690d
 	github.com/aybabtme/rgbterm v0.0.0-20170906152045-cc83f3b3ce59
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/cheggaaa/pb/v3 v3.0.5
@@ -42,10 +43,13 @@ require (
 	github.com/mitchellh/go-ps v1.0.0
 	github.com/mitchellh/mapstructure v1.4.1
 	github.com/morikuni/aec v1.0.0 // indirect
+	github.com/olekukonko/tablewriter v0.0.5
 	github.com/onsi/ginkgo v1.16.2
 	github.com/onsi/gomega v1.12.0
+	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.11.0
 	github.com/prometheus/common v0.29.0
+	github.com/prometheus/prometheus v2.5.0+incompatible
 	github.com/pyroscope-io/dotnetdiag v1.2.1
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/rlmcpherson/s3gof3r v0.5.0
